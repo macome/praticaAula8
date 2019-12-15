@@ -32,7 +32,7 @@ public class CollecaoList {
          }
         
         System.out.println(lista.toString());
-        System.out.println(lista.indexOf("tenis"));
+        System.out.println(lista.indexOf("tenis"));//nao est a funcionar ver porque
         System.out.println(lista.subList(1, 3));//cria uma sublista dosindices lindicados
         lista.subList(1, 3).clear();//retira a sublista da lista
         System.out.println(lista.toString());
