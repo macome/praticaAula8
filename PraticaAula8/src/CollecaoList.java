@@ -22,7 +22,21 @@ public class CollecaoList {
         lista.add("volei bol");
         lista.add("fotebol");// lista permite repetir elementos
         
+         System.out.println(lista.toString());
+        
+         for (int i = 0; i < lista.size(); i++) {//percorre toda lista
+             
+             String A = lista.get(i);//pega os elemntos da lista na posicao i 
+             lista.set(i, A.toUpperCase());//atribui esse elementos no indice i a A
+             
+         }
+        
         System.out.println(lista.toString());
+        System.out.println(lista.indexOf("tenis"));
+        System.out.println(lista.subList(1, 3));//cria uma sublista dosindices lindicados
+        lista.subList(1, 3).clear();//retira a sublista da lista
+        System.out.println(lista.toString());
+        
     }
     
 }
