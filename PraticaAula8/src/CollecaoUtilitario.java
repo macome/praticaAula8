@@ -36,7 +36,7 @@ public class CollecaoUtilitario {
         System.out.println(B);
         
         ;
-        System.out.println(Collections.frequency(B,"pinto"));
+        System.out.println(Collections.frequency(B,"pinto"));//indica a frequencia do elemnto na lista
     }
     
 }
