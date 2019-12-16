@@ -11,4 +11,10 @@ package PooAula8;
  */
 public class LampadaTest {
     
+    public static void main(String[] args) {
+        
+          
+       Lampada l = new Lampada("branca", 100, 60);
+    } 
+    
 }

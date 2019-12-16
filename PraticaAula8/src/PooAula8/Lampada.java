@@ -42,11 +42,11 @@ j)	Quando uma lâmpada ultrapassa o grau de luminosidade máximo (100) funde
     
     }
      
-     private Lampada(String cor, String estado, String tipo, int voltagem, int grauDeLuminosidade){
+     private Lampada(String cor, int voltagem, int grauDeLuminosidade){
          
-         this.cor = "branca";
-         this.grauDeLuminosidade = 100;
-         this.voltagem = 60;         
+         this.cor = cor;
+         this.grauDeLuminosidade = grauDeLuminosidade;
+         this.voltagem = voltagem;         
      
      }
      
