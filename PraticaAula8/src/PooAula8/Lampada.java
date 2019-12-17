@@ -28,11 +28,11 @@ j)	Quando uma lâmpada ultrapassa o grau de luminosidade máximo (100) funde
 
     */
     
-    String cor;
-    String estado;
-    String tipo;
-    int voltagem;
-    int grauDeLuminosidade;
+    private String cor;
+    private String estado;
+    private String tipo;
+    private int voltagem;
+    private int grauDeLuminosidade;
     
      void ligarDesligar(){
          
@@ -42,7 +42,7 @@ j)	Quando uma lâmpada ultrapassa o grau de luminosidade máximo (100) funde
     
     }
      
-     private Lampada(String cor, int voltagem, int grauDeLuminosidade){
+     public Lampada(String cor, int voltagem, int grauDeLuminosidade){
          
          this.cor = cor;
          this.grauDeLuminosidade = grauDeLuminosidade;
