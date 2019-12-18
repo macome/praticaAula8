@@ -29,37 +29,82 @@ j)	Quando uma lâmpada ultrapassa o grau de luminosidade máximo (100) funde
     */
     
     private String cor;
-    private String estado;
+    private boolean estado;
     private String tipo;
     private int voltagem;
     private int grauDeLuminosidade;
     
-     void ligarDesligar(){
-         
-        
-        
-        
-    
+      public void ligar(){
+          
+          if(estado == false){
+              this.estado = true;
+          }
+        }
+       public void desligar(){
+           if(estado == true){
+              this.estado = false;
+          }
+       }
+
+    public Lampada(String cor, boolean estado, String tipo, int voltagem, int grauDeLuminosidade) {
+        this.cor = cor;
+        this.estado = estado;
+        this.tipo = tipo;
+        this.voltagem = voltagem;
+        this.grauDeLuminosidade = grauDeLuminosidade;
+    }
+
+    //@Override
+    public String toString() {
+        return "Lampada{" + "cor=" + cor + ", estado=" + estado + ", tipo=" + tipo + ", voltagem=" + voltagem + ", grauDeLuminosidade=" + grauDeLuminosidade + '}';
+    }
+
+    public boolean isEstado() {
+        return estado;
+    }
+
+    public void setEstado(boolean estado) {
+        this.estado = estado;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
      
-     public Lampada(String cor, int voltagem, int grauDeLuminosidade){
-         
-         this.cor = cor;
-         this.grauDeLuminosidade = grauDeLuminosidade;
-         this.voltagem = voltagem;         
      
-     }
      
      public String getCor(){
-         
-        return cor; 
-     
+         return cor; 
      }
      
      public void setCor(String cor){
-         
          this.cor = cor;
-     
      }
+
+    public int getGrauDeLuminosidade() {
+        return grauDeLuminosidade;
+    }
+
+    public void setGrauDeLuminosidade(int grauDeLuminosidade) {
+        this.grauDeLuminosidade = grauDeLuminosidade;
+    }
+
+    public int getVoltagem() {
+        return voltagem;
+    }
+
+    public void setVoltagem(int voltagem) {
+        this.voltagem = voltagem;
+    }
+     
+     
+
+    
+    
+     
     
 }
