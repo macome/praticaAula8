@@ -10,7 +10,9 @@ package PooAula8;
  * @author Aly Macome
  */
 public class ContaPrazoTest {
-    ContaPrazo c = new ContaPrazo();
+    public static void main(String[] args) {
+        
+    }
     
     
 }
