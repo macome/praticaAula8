@@ -32,4 +32,8 @@ public class ConversaoDaUnidadeTempo {
     public static double diaHora(double dia){
         return dia * 24;
     }
+    
+    public static double semanaDia(double semana){
+        return semana * 7;
+    }
 }
