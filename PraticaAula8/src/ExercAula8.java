@@ -81,7 +81,7 @@ public class ExercAula8 {
         
         //s)
         //array.pop()
-        array.pop()
+       // array.pop()
         
         
         // t)
@@ -101,7 +101,7 @@ public class ExercAula8 {
         Vector<Double> LKC = new Vector<>();
         
         // y)
-         LKC.pop();
+       //  LKC.pop();
         
         
         // y)
