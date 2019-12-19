@@ -46,6 +46,12 @@ public class ConversaoDaUnidadeTempo {
     }
     
     public static void main(String[] args) {
-        
+       int x;
+        System.out.println("1 - Minuto para Segundos");
+        System.out.println("2 - Hora para Minutos");
+        System.out.println("3 - Dia para horas");
+        System.out.println("4 - Semana para dias");
+        System.out.println("5 - Mes para dias");
+        System.out.println("6 - Ano para dias");
     }
 }
