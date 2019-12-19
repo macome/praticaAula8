@@ -36,4 +36,7 @@ public class ConversaoDaUnidadeTempo {
     public static double semanaDia(double semana){
         return semana * 7;
     }
+    public static int mesDia(int mes){
+        return mes * 30;
+    }
 }
