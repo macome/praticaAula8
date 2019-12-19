@@ -14,6 +14,7 @@ public class ContaPrazoTest {
         ContaPrazo c = new ContaPrazo();
         c.definirSaldoInicial(5000);
         c.mostrarValor();
+        c.levantar(500);
         
         
     }
