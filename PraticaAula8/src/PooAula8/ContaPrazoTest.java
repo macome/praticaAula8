@@ -18,6 +18,7 @@ public class ContaPrazoTest {
         c.depositar(100);
         c.mostrarValor();
         c.levantar(1200);
+        c.mostrarValor();
         
         
     }
