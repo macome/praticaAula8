@@ -39,5 +39,9 @@ public class ContaPrazo {
     public void depositar(double valor){
         this.saldo = saldo + valor;
     }
+    
+    public void mostrarValor(){
+        System.out.println("saldo actual: " + getSaldo());
+    }
   
 }
