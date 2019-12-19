@@ -36,4 +36,8 @@ public class ContaPrazo {
         this.saldo = saldo - valor;
     }
     
+    public void depositar(double valor){
+        this.saldo = saldo + valor;
+    }
+  
 }
