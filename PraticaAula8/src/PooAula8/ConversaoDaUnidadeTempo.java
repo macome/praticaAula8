@@ -24,5 +24,7 @@ public class ConversaoDaUnidadeTempo {
     public static double minuSegundo(double min){
         return min * 60;
     }
-    
+    public static double horaMin(double hora){
+        return hora * 60;
+    }
 }
