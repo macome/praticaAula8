@@ -27,5 +27,10 @@ public class ContaPrazo {
     public void definirSaldoInicial(double saldo){
         this.saldo = saldo;
     }
+
+    public double getSaldo() {
+        return saldo;
+    }
+    
     
 }
