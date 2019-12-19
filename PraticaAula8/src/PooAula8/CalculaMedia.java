@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package PooAula8;
+import java.util.Scanner;
 
 /**
  *
@@ -18,28 +19,44 @@ package PooAula8;
 
 */
 public class CalculaMedia {
-    double media;
-    double tes1,test2;
+    static double media;
+    static double test1,test2;
     
-    public double media(double test1, double test2){
-        //double media;
-        return media = (test1 + test2)/2;
+    Scanner s = new Scanner(System.in);
+   
+    
+            
+    public static void media(double test1, double test2){
+        media = (test1 + test2)/2;
     }
 
-    public double getMedia() {
+    public static double getMedia() {
         return media;
     }
      
-    public void status(){
-        if(this.getMedia() > 6) {
-            System.out.println("Aprovado");
+    public static String status(){
+        String estado = null;
+        
+        if(getMedia() > 6) {
+            estado = "Aprovado";
         }
-        else if(this.getMedia() > 4 && this.getMedia() < 6){
-            System.out.println("Candidato ao Exame");
+        else if(getMedia() > 4 && getMedia() < 6){
+            estado = "Candidato ao Exame";
         }
-        else if(this.getMedia() < 4){
-            System.out.println("Reprovado");
+        else if(getMedia() < 4){
+            estado = "Reprovado";
         }
+        
+        return estado;
+    }
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("indique o valor do teste1");
+        test1 = s.nextDouble();
+        System.out.println("indique o valor do teste2");
+        test2 = s.nextDouble();
+        media(test1, test2);
+        System.out.println("A media do aluno e " +getMedia()+ " e foi "+status());
     }
     
 }
