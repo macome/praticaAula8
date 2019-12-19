@@ -23,4 +23,9 @@ g)	Escreva o valor do atributo saldo na tela.
 */
 public class ContaPrazo {
     
+    
+    public static void definirSaldoInicial(double saldo){
+        
+    }
+    
 }
