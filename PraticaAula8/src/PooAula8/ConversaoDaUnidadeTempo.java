@@ -36,7 +36,16 @@ public class ConversaoDaUnidadeTempo {
     public static double semanaDia(double semana){
         return semana * 7;
     }
+   
     public static int mesDia(int mes){
         return mes * 30;
+    }
+    
+    public static double anoDia(double ano){
+        return ano * 365.25;
+    }
+    
+    public static void main(String[] args) {
+        
     }
 }
