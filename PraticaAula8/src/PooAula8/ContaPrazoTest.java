@@ -15,6 +15,7 @@ public class ContaPrazoTest {
         c.definirSaldoInicial(5000);
         c.mostrarValor();
         c.levantar(500);
+        c.depositar(100);
         
         
     }
