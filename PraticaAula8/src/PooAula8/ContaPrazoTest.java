@@ -11,7 +11,9 @@ package PooAula8;
  */
 public class ContaPrazoTest {
     public static void main(String[] args) {
-        
+        ContaPrazo c = new ContaPrazo();
+   
+    
     }
     
     
