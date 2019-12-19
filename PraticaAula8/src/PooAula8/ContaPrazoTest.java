@@ -13,7 +13,8 @@ public class ContaPrazoTest {
     public static void main(String[] args) {
         ContaPrazo c = new ContaPrazo();
         c.definirSaldoInicial(5000);
-        c.getSaldo();
+        c.mostrarValor();
+        
         
     }
     
