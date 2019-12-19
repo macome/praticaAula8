@@ -32,5 +32,8 @@ public class ContaPrazo {
         return saldo;
     }
     
+    public void levantar(double valor){
+        this.saldo = saldo - valor;
+    }
     
 }
